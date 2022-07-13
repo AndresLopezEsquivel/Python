@@ -1,3 +1,7 @@
+import time
+
+# Decorators Example 1
+
 def decorator(operation):
 
     def auxiliary_function(*args, **kwargs):
@@ -25,3 +29,20 @@ def power(base, exponent):
 print(f'Result: {add(1, 2, 3, 4, 5, 6, 7, 8, 9, 10)}')
 
 print(f'Result: {power(base=2, exponent=3)}')
+
+# Decorators Example 2
+
+def time_decorator(f):
+
+    def wrapper():
+        initial_time = time.time()
+        f()
+        print(f"Function run() took {time.time() - initial_time} seconds")
+
+    return wrapper
+
+@time_decorator
+def run():
+    time.sleep(2)
+    
+run()
