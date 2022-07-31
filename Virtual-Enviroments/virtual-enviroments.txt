@@ -1,0 +1,18 @@
+1. Create a folder for your Python project
+
+2. Move to the the folder
+
+3. Run 'py -m venv <name-of-the-enviroment>'
+
+	A quick reminder: 'py' is used in Windows. In Mac/Linux use 'python3'
+
+	A folder called 'venv' has been created.
+
+4.1. To activate the virtual enviroment in MacOS/Linux, run 'source venv/bin/activate'
+
+4.2. To active the virtual enviroment in Windows, run '.\venv\Scripts\activate'
+
+5. To exit from the virtual enviroment (this works for Windows, MacOS and Linux), run 'deactivate'
+
+
+
