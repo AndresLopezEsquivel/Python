@@ -18,7 +18,7 @@ def is_palindrome(string: str) -> bool:
 
 if __name__ == "__main__":
 
-# Before ruunning the program, run 'mypy typing_topic.py --check-untyped-defs'	
+# Before running the program, run 'mypy typing_topic.py --check-untyped-defs'	
 
 	try:
 

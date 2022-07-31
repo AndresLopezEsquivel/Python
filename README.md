@@ -1,2 +1,2 @@
-# PlatziCourses
-Content related to the courses that I've taken at Platzi
+# Python
+Content related to what I study about Python
