@@ -99,3 +99,33 @@ For example
 ```console
 conda create --name py39 --copy --clone py35
 ```
+
+## To remove a dependency
+
+To remove a dependency, run:
+
+```console
+conda remove <dependency-name>
+```
+
+For example
+
+```console
+conda remove pandas
+```
+
+## To remove an environment
+
+To remove a certain environment, run
+
+```console
+conda env remove --name <env-name>
+```
+
+For example
+
+```console
+conda env remove --name py39
+```
+
+Note: It is not possible to remove an active virtual environment. You need to deactivate it and then remove it.
